@@ -1,7 +1,4 @@
-// export const host = "http://localhost:5001";
-// export const host = "https://backend-app-chat-6lfvf.ondigitalocean.app:8080";
-export const port = process.env.PORT;
-export const host = process.env.HOST+":"+port;
+export const host = "https://snappy-back-9bml6.ondigitalocean.app";
 export const loginRoute = `${host}/api/auth/login`;
 export const registerRoute = `${host}/api/auth/register`;
 export const logoutRoute = `${host}/api/auth/logout`;
